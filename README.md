@@ -6,6 +6,14 @@
 ### 使用方式
 参考captcha_locator.py
 
+demo:
+```
+python3.10 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python captcha_locator.py
+```
+
 ### 参考资料
 1. 思路来源于[Text_select_captcha](https://github.com/MgArcher/Text_select_captcha)。
 2. 使用了[yolov5](https://github.com/ultralytics/yolov5)
